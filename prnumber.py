@@ -63,9 +63,9 @@ if __name__ == "__main__":
         # Ask if the user wants to perform another action
         another_number = input("Do you want to try another number? (yes/no): ").strip().lower()
         if another_number == 'yes':
-            swali = input("Please get this right ama ukuwe blocked. Sawa? (sawa/zii): ").strip().lower()
-            if swali != 'sawa':
-                print("Nkt! Tanye wewe. BLOCKED!!")
+            swali = input("Please get this one right. Ok? (ok/nop): ").strip().lower()
+            if swali != 'ok':
+                print("BLOCKED!!")
                 break
 
         if another_number != 'yes':
