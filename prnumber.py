@@ -55,7 +55,7 @@ if __name__ == "__main__":
                     divisors = first_divisible_numbers(user_input)
                     print(f"The first 5 numbers {user_input} is divisible by: {divisors}")
             else:
-                print("Input is out of range (1 to 1451,000,000).")
+                print("Input is out of range (1 to 1,000,000).")
 
         except ValueError:
             print("Invalid input. Please enter a valid integer.")
